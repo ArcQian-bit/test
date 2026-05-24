@@ -29,7 +29,7 @@ It is one `real-engineer` SKILL.md with five modes:
 
 No Claude-specific setup, no duplicate skill triggers, no big framework.
 
-https://github.com/ArcQian-bit/test
+https://github.com/ArcQian-bit/codex-real-engineer-skills
 ```
 
 Polite outreach template:
@@ -38,7 +38,7 @@ Polite outreach template:
 Hey, I saw you were collecting Codex / SKILL.md resources. I built a small
 Codex-native `real-engineer` skill adapted from "real engineering" workflows:
 
-https://github.com/ArcQian-bit/test
+https://github.com/ArcQian-bit/codex-real-engineer-skills
 
 Would this fit your list? Feedback welcome either way.
 ```
