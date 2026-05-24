@@ -1,7 +1,0 @@
-interface:
-  display_name: "Real Engineer Prototype"
-  short_description: "Disposable prototypes for hard questions"
-  brand_color: "#7C3AED"
-  default_prompt: "Use $real-engineer-prototype to prototype this idea before committing to production code."
-policy:
-  allow_implicit_invocation: true
