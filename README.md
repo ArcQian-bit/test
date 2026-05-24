@@ -2,14 +2,24 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/ArcQian-bit/codex-real-engineer-skills?style=social)](https://github.com/ArcQian-bit/codex-real-engineer-skills/stargazers)
 [![MIT license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Website](https://img.shields.io/badge/site-GitHub%20Pages-blue.svg)](https://arcqian-bit.github.io/codex-real-engineer-skills/)
 
-One Codex skill for real engineering, not vibe coding.
+One Codex skill for real engineering: debugging, TDD, requirements grilling,
+rapid prototyping, and architecture review.
 
 This is a Codex-native collection inspired by Matt Pocock's `mattpocock/skills`.
 It folds the overlapping workflows into one router skill: `real-engineer`.
 
 The goal is simple: make Codex behave less like an autocomplete box and more
 like a disciplined senior engineer.
+
+## Links
+
+- Website: https://arcqian-bit.github.io/codex-real-engineer-skills/
+- Install guide: https://arcqian-bit.github.io/codex-real-engineer-skills/install-codex-real-engineer-skill.html
+- Examples: https://arcqian-bit.github.io/codex-real-engineer-skills/examples.html
+- Comparison: https://arcqian-bit.github.io/codex-real-engineer-skills/codex-skills-comparison.html
+- Promotion kit: [PROMOTION.md](PROMOTION.md)
 
 ## Why Star This
 
@@ -88,6 +98,8 @@ If this helps, star the repo and share it with other Codex users:
 > review. One readable `SKILL.md`, no Claude-specific setup.
 >
 > https://github.com/ArcQian-bit/codex-real-engineer-skills
+
+More launch copy is in [PROMOTION.md](PROMOTION.md).
 
 ## Attribution
 

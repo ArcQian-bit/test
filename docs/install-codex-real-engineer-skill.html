@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Install Real Engineer for Codex - Codex Skill Install Guide</title>
+  <meta name="description" content="Install the Real Engineer Codex skill into ~/.codex/skills and restart Codex to use diagnose, TDD, grill, prototype, and architecture review modes.">
+  <link rel="canonical" href="https://arcqian-bit.github.io/codex-real-engineer-skills/install-codex-real-engineer-skill.html">
+  <style>
+    body { margin: 0; background: #f8fafc; color: #0f172a; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
+    main { width: min(880px, calc(100% - 40px)); margin: 0 auto; padding: 48px 0; }
+    a { color: #0369a1; }
+    h1 { font-size: clamp(36px, 6vw, 64px); line-height: 1; letter-spacing: 0; }
+    pre { overflow-x: auto; background: #0f172a; color: #e2e8f0; padding: 16px; border-radius: 8px; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="./">Real Engineer for Codex</a></p>
+    <h1>Install the Real Engineer Codex Skill</h1>
+    <p>Run the installer:</p>
+    <pre><code>curl -fsSL https://raw.githubusercontent.com/ArcQian-bit/codex-real-engineer-skills/main/install.sh | bash</code></pre>
+    <p>Then restart Codex so it loads <code>~/.codex/skills/real-engineer/SKILL.md</code>.</p>
+    <h2>Manual Install</h2>
+    <pre><code>git clone https://github.com/ArcQian-bit/codex-real-engineer-skills.git
+cp -R codex-real-engineer-skills/skills/real-engineer ~/.codex/skills/</code></pre>
+    <h2>Try It</h2>
+    <pre><code>Use real-engineer to debug this failing checkout test.</code></pre>
+    <p>The skill should route the work through Diagnose mode, reproduce the issue, rank hypotheses, make the smallest proven fix, and keep regression coverage.</p>
+  </main>
+</body>
+</html>
+

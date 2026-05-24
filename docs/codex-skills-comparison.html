@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex Skills vs Claude Skills - Real Engineer for Codex</title>
+  <meta name="description" content="How Real Engineer for Codex adapts real engineering workflows into one Codex-native SKILL.md without Claude-specific hooks or duplicate triggers.">
+  <link rel="canonical" href="https://arcqian-bit.github.io/codex-real-engineer-skills/codex-skills-comparison.html">
+  <style>
+    body { margin: 0; background: #f8fafc; color: #0f172a; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
+    main { width: min(960px, calc(100% - 40px)); margin: 0 auto; padding: 48px 0; }
+    a { color: #0369a1; }
+    h1 { font-size: clamp(36px, 6vw, 64px); line-height: 1; letter-spacing: 0; }
+    table { border-collapse: collapse; width: 100%; background: white; }
+    th, td { border: 1px solid #dbe3ee; padding: 12px; text-align: left; vertical-align: top; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="./">Real Engineer for Codex</a></p>
+    <h1>Codex Skills vs Claude-Oriented Skills</h1>
+    <p>Real Engineer for Codex keeps the engineering discipline of the original workflows while removing assumptions that belong to another tool: slash commands, Claude hooks, and Claude-specific subagent setup.</p>
+    <table>
+      <thead><tr><th>Question</th><th>Real Engineer for Codex</th></tr></thead>
+      <tbody>
+        <tr><td>How many skills?</td><td>One router skill named <code>real-engineer</code>, which prevents duplicate activation.</td></tr>
+        <tr><td>What does it cover?</td><td>Debugging, TDD, requirements grilling, prototyping, and architecture review.</td></tr>
+        <tr><td>How does it install?</td><td>Copy one directory into <code>~/.codex/skills/real-engineer</code>, then restart Codex.</td></tr>
+        <tr><td>What changed from Claude workflows?</td><td>Codex-native SKILL.md structure, no slash-command dependency, and no Claude hook assumptions.</td></tr>
+      </tbody>
+    </table>
+    <p><a href="install-codex-real-engineer-skill.html">Install the Codex skill</a></p>
+  </main>
+</body>
+</html>
+

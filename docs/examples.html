@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real Engineer for Codex Examples - Debugging, TDD, Prototype, Architecture</title>
+  <meta name="description" content="Example prompts for the Real Engineer Codex skill, including positive and negative tests for diagnose, TDD, grill, prototype, and architecture modes.">
+  <link rel="canonical" href="https://arcqian-bit.github.io/codex-real-engineer-skills/examples.html">
+  <style>
+    body { margin: 0; background: #f8fafc; color: #0f172a; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; }
+    main { width: min(900px, calc(100% - 40px)); margin: 0 auto; padding: 48px 0; }
+    a { color: #0369a1; }
+    h1 { font-size: clamp(36px, 6vw, 64px); line-height: 1; letter-spacing: 0; }
+    pre { overflow-x: auto; background: #0f172a; color: #e2e8f0; padding: 16px; border-radius: 8px; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <main>
+    <p><a href="./">Real Engineer for Codex</a></p>
+    <h1>Example Prompts</h1>
+    <h2>Positive Trigger: Diagnose</h2>
+    <pre><code>Use real-engineer to debug this failing checkout test.</code></pre>
+    <p>Expected behavior: Codex should reproduce, isolate the smallest failing case, rank hypotheses, fix the proven cause, and keep a regression test.</p>
+    <h2>Positive Trigger: TDD</h2>
+    <pre><code>Use real-engineer and implement this endpoint test-first.</code></pre>
+    <p>Expected behavior: Codex should start with a failing test, implement the smallest passing change, then refactor.</p>
+    <h2>Positive Trigger: Grill</h2>
+    <pre><code>Use real-engineer to stress-test this feature idea before coding.</code></pre>
+    <p>Expected behavior: Codex should ask concrete product and engineering questions with recommended defaults.</p>
+    <h2>Negative Trigger</h2>
+    <pre><code>Make this README sound more casual.</code></pre>
+    <p>Expected behavior: the skill should not activate. This is writing/editing work, not debugging, TDD, prototyping, or architecture review.</p>
+  </main>
+</body>
+</html>
+

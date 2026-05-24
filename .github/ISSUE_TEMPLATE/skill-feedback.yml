@@ -1,0 +1,40 @@
+name: Skill feedback
+description: Report a prompt where real-engineer helped, failed, or triggered unexpectedly.
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt
+      description: Paste the exact prompt or a minimal version of it.
+      placeholder: Use real-engineer to debug...
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Expected mode
+      options:
+        - Diagnose
+        - TDD
+        - Grill
+        - Prototype
+        - Architecture
+        - Should not trigger
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed behavior
+      description: What did Codex do?
+    validations:
+      required: true
+  - type: textarea
+    id: desired
+    attributes:
+      label: Desired behavior
+      description: What should the skill have done instead?
+    validations:
+      required: false
