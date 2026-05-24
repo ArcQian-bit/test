@@ -1,0 +1,7 @@
+interface:
+  display_name: "Real Engineer"
+  short_description: "Diagnose, TDD, clarify, prototype, review architecture"
+  brand_color: "#0F766E"
+  default_prompt: "Use $real-engineer to choose the right engineering workflow for this task."
+policy:
+  allow_implicit_invocation: true
