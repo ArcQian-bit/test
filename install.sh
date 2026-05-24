@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO="${CODEX_REAL_ENGINEER_REPO:-ArcQian-bit/test}"
+REPO="${CODEX_REAL_ENGINEER_REPO:-ArcQian-bit/codex-real-engineer-skills}"
 REF="${CODEX_REAL_ENGINEER_REF:-main}"
 DEST="${CODEX_HOME:-$HOME/.codex}/skills"
 SKILL_NAME="real-engineer"
