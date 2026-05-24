@@ -1,7 +1,0 @@
-interface:
-  display_name: "Real Engineer Grill"
-  short_description: "Clarify fuzzy work before coding"
-  brand_color: "#D97706"
-  default_prompt: "Use $real-engineer-grill to stress-test this plan before implementation."
-policy:
-  allow_implicit_invocation: true
