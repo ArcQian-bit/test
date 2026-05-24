@@ -1,0 +1,7 @@
+interface:
+  display_name: "Real Engineer Architecture"
+  short_description: "Find deeper modules and cleaner seams"
+  brand_color: "#0F766E"
+  default_prompt: "Use $real-engineer-architecture to review this codebase for high-value refactor opportunities."
+policy:
+  allow_implicit_invocation: true
