@@ -1,6 +1,6 @@
 # Real Engineer For Codex
 
-[![GitHub stars](https://img.shields.io/github/stars/ArcQian-bit/test?style=social)](https://github.com/ArcQian-bit/test/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/ArcQian-bit/codex-real-engineer-skills?style=social)](https://github.com/ArcQian-bit/codex-real-engineer-skills/stargazers)
 [![MIT license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 One Codex skill for real engineering, not vibe coding.
@@ -23,7 +23,7 @@ like a disciplined senior engineer.
 ## Quick Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ArcQian-bit/test/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ArcQian-bit/codex-real-engineer-skills/main/install.sh | bash
 ```
 
 Restart Codex after installing so the new skills are discovered.
@@ -31,8 +31,8 @@ Restart Codex after installing so the new skills are discovered.
 You can also install manually:
 
 ```bash
-git clone https://github.com/ArcQian-bit/test.git
-cp -R test/skills/real-engineer ~/.codex/skills/
+git clone https://github.com/ArcQian-bit/codex-real-engineer-skills.git
+cp -R codex-real-engineer-skills/skills/real-engineer ~/.codex/skills/
 ```
 
 ## One Skill, Five Modes
@@ -87,7 +87,7 @@ If this helps, star the repo and share it with other Codex users:
 > engineering workflows: diagnose, TDD, grill, prototype, and architecture
 > review. One readable `SKILL.md`, no Claude-specific setup.
 >
-> https://github.com/ArcQian-bit/test
+> https://github.com/ArcQian-bit/codex-real-engineer-skills
 
 ## Attribution
 
