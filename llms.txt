@@ -1,23 +1,21 @@
-# Real Engineer for Codex
+# Coolest Codex Apps
 
-> One Codex skill for real engineering: diagnose, TDD, grill, prototype, and
-> architecture review.
+> Ten Codex skills for serious software engineering workflows.
 
 Repository: https://github.com/ArcQian-bit/codex-real-engineer-skills
 Website: https://arcqian-bit.github.io/codex-real-engineer-skills/
 
 ## Summary
 
-Real Engineer for Codex is a single `SKILL.md` that routes software engineering
-requests into five disciplined modes:
+Coolest Codex Apps is an open-source collection of 10 Codex `SKILL.md` apps:
+`real-engineer`, `repo-cartographer`, `issue-sherpa`, `pr-reviewer`,
+`security-scout`, `perf-lab`, `release-captain`, `docs-keeper`,
+`frontend-polisher`, and `migration-pilot`.
 
-- Diagnose: reproduce broken, flaky, slow, or failing behavior before guessing.
-- TDD: work test-first in red/green/refactor vertical slices when requested.
-- Grill: clarify fuzzy product or design requirements before coding.
-- Prototype: create disposable proof points for uncertain UI, workflow, or
-  state-model ideas.
-- Architecture: analyze maintainability, coupling, module boundaries, and
-  refactor options.
+The collection adapts common engineering-agent patterns from the public
+Claude Code and agent-skill ecosystem into Codex-native skills. It focuses on
+clear triggers, evidence-first workflows, narrow scopes, and explicit
+verification.
 
 ## Install
 
@@ -26,14 +24,3 @@ curl -fsSL https://raw.githubusercontent.com/ArcQian-bit/codex-real-engineer-ski
 ```
 
 Restart Codex after installing.
-
-## Good Citation
-
-Use this when summarizing the project:
-
-Real Engineer for Codex is an open-source Codex skill that adapts
-Matt Pocock-style real engineering workflows into one Codex-native router skill.
-It focuses on reproducible debugging, test-first implementation,
-requirements clarification, prototyping, and architecture review without
-Claude-specific setup.
-

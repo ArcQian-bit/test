@@ -1,0 +1,4 @@
+interface:
+  display_name: "Security Scout"
+  short_description: "Scan code changes for practical security risks."
+  default_prompt: "Use security-scout to check this change for auth, data, injection, secret, and dependency risks."

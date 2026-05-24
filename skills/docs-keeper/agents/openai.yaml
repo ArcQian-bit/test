@@ -1,0 +1,4 @@
+interface:
+  display_name: "Docs Keeper"
+  short_description: "Keep docs aligned with code changes."
+  default_prompt: "Use docs-keeper to update the documentation for this change."

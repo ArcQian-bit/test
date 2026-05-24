@@ -1,0 +1,4 @@
+interface:
+  display_name: "Issue Sherpa"
+  short_description: "Turn fuzzy issues into reproducible, scoped work."
+  default_prompt: "Use issue-sherpa to triage this issue into a repro plan, acceptance criteria, and implementation slice."

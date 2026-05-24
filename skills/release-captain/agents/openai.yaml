@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release Captain"
+  short_description: "Prepare releases, changelogs, and publish checks."
+  default_prompt: "Use release-captain to prepare this release and verify the publish checklist."

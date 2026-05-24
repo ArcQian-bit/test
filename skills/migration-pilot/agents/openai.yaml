@@ -1,0 +1,4 @@
+interface:
+  display_name: "Migration Pilot"
+  short_description: "Plan and execute migrations safely."
+  default_prompt: "Use migration-pilot to migrate this code with inventory, compatibility checks, and rollback notes."

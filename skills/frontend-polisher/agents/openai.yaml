@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Polisher"
+  short_description: "Polish UI with responsive checks."
+  default_prompt: "Use frontend-polisher to review and improve this UI across desktop and mobile."

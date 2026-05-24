@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR Reviewer"
+  short_description: "Review diffs for bugs, regressions, and missing verification."
+  default_prompt: "Use pr-reviewer to review this change and list only actionable findings."

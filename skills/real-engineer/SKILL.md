@@ -1,13 +1,14 @@
 ---
 name: real-engineer
-description: A Codex workflow router for disciplined software engineering: diagnose bugs, run TDD, clarify requirements, build throwaway prototypes, and review architecture. Use when the user asks for serious engineering help on debugging, test-first implementation, fuzzy product/design decisions, prototyping, refactoring, or architecture. Do not use for routine shell questions, simple explanations, document/image/spreadsheet work, or tasks already covered by a more specific installed skill.
+description: "A Codex workflow router for disciplined software engineering: diagnose bugs, run TDD, clarify requirements, build throwaway prototypes, and review architecture. Use when the user asks for serious engineering help and no narrower app in the collection fits. Do not use for routine shell questions, simple explanations, document/image/spreadsheet work, PR review, issue triage, release prep, docs sync, security review, performance work, frontend polish, migrations, or repo onboarding when a more specific skill applies."
 ---
 
 # Real Engineer
 
 Choose exactly one primary mode, then work the request through that mode. This
-skill is a collection, so avoid stacking multiple modes unless the work naturally
-transitions from one to another.
+app is the general engineering fallback in the Coolest Codex Apps collection, so
+avoid stacking multiple modes unless the work naturally transitions from one to
+another.
 
 ## Routing
 

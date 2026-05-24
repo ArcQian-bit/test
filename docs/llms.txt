@@ -1,11 +1,12 @@
-# Real Engineer for Codex
+# Coolest Codex Apps
 
 Repository: https://github.com/ArcQian-bit/codex-real-engineer-skills
 Install: https://arcqian-bit.github.io/codex-real-engineer-skills/install-codex-real-engineer-skill.html
 
-Real Engineer for Codex is one Codex skill that routes software engineering
-requests into diagnose, TDD, grill, prototype, and architecture modes. It is
-designed to prevent AI coding agents from guessing before reproducing,
-implementing before clarifying, or refactoring before understanding module
-boundaries.
+Coolest Codex Apps is a collection of 10 Codex skills for software engineering:
+repo mapping, issue triage, PR review, security review, performance work,
+release prep, docs sync, frontend polish, migrations, and the general
+`real-engineer` workflow router.
 
+The pack is inspired by public Claude Code and agent-skill community patterns
+but written for Codex `SKILL.md` discovery and execution.

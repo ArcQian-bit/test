@@ -1,0 +1,4 @@
+interface:
+  display_name: "Perf Lab"
+  short_description: "Improve performance with measured feedback loops."
+  default_prompt: "Use perf-lab to profile this slow path and propose measured improvements."

@@ -3,134 +3,49 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Real Engineer for Codex - Codex Skill for Debugging, TDD, Prototyping, and Architecture Review</title>
-  <meta name="description" content="Real Engineer for Codex is one SKILL.md that gives Codex disciplined software engineering workflows: diagnose, TDD, grill, prototype, and architecture review.">
+  <title>Coolest Codex Apps - 10 Codex Skills for Real Engineering</title>
+  <meta name="description" content="Coolest Codex Apps is a collection of 10 Codex skills for repo mapping, issue triage, PR review, security, performance, releases, docs, UI polish, migrations, and real engineering workflows.">
   <link rel="canonical" href="https://arcqian-bit.github.io/codex-real-engineer-skills/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Real Engineer for Codex">
-  <meta property="og:description" content="One Codex skill for real engineering: debugging, TDD, requirements grilling, prototyping, and architecture review.">
+  <meta property="og:title" content="Coolest Codex Apps">
+  <meta property="og:description" content="Ten Codex SKILL.md apps for serious engineering work.">
   <meta property="og:url" content="https://arcqian-bit.github.io/codex-real-engineer-skills/">
-  <meta property="og:image" content="https://raw.githubusercontent.com/ArcQian-bit/codex-real-engineer-skills/main/assets/social-preview-small.jpg">
+  <meta property="og:image" content="https://arcqian-bit.github.io/codex-real-engineer-skills/assets/social-preview.svg">
   <meta name="twitter:card" content="summary_large_image">
   <style>
-    :root {
-      color-scheme: light;
-      --bg: #f8fafc;
-      --ink: #0f172a;
-      --muted: #475569;
-      --line: #dbe3ee;
-      --accent: #0369a1;
-      --accent-strong: #0f5f8f;
-      --panel: #ffffff;
-    }
+    :root { color-scheme: light; --bg: #f8fafc; --ink: #0f172a; --muted: #475569; --line: #dbe3ee; --accent: #0369a1; --panel: #ffffff; }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--ink);
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.6;
-    }
-    header, main, footer {
-      width: min(1080px, calc(100% - 40px));
-      margin: 0 auto;
-    }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; }
+    header, main, footer { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
     header { padding: 56px 0 28px; }
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      margin-bottom: 48px;
-      font-weight: 650;
-    }
-    nav a, .button {
-      color: var(--accent);
-      text-decoration: none;
-    }
-    nav a:hover, .button:hover { color: var(--accent-strong); }
-    h1 {
-      margin: 0 0 18px;
-      max-width: 940px;
-      font-size: clamp(42px, 7vw, 84px);
-      line-height: 0.96;
-      letter-spacing: 0;
-    }
-    .lede {
-      max-width: 760px;
-      color: var(--muted);
-      font-size: 21px;
-      margin: 0 0 26px;
-    }
-    .actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin: 28px 0 0;
-    }
-    .primary, .secondary {
-      border-radius: 8px;
-      padding: 12px 16px;
-      font-weight: 760;
-      text-decoration: none;
-    }
-    .primary {
-      background: var(--ink);
-      color: white;
-    }
-    .secondary {
-      border: 1px solid var(--line);
-      color: var(--ink);
-      background: white;
-    }
-    section {
-      padding: 34px 0;
-      border-top: 1px solid var(--line);
-    }
-    h2 {
-      font-size: 30px;
-      margin: 0 0 14px;
-      letter-spacing: 0;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 14px;
-      margin-top: 18px;
-    }
-    .card {
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 18px;
-    }
+    nav { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 48px; font-weight: 650; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    h1 { margin: 0 0 18px; max-width: 940px; font-size: clamp(42px, 7vw, 84px); line-height: 0.96; letter-spacing: 0; }
+    .lede { max-width: 780px; color: var(--muted); font-size: 21px; margin: 0 0 26px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 0; }
+    .primary, .secondary { border-radius: 8px; padding: 12px 16px; font-weight: 760; text-decoration: none; }
+    .primary { background: var(--ink); color: white; }
+    .secondary { border: 1px solid var(--line); color: var(--ink); background: white; }
+    section { padding: 34px 0; border-top: 1px solid var(--line); }
+    h2 { font-size: 30px; margin: 0 0 14px; letter-spacing: 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-top: 18px; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 18px; }
     .card h3 { margin: 0 0 8px; }
-    code, pre {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      font-size: 0.94em;
-    }
-    pre {
-      overflow-x: auto;
-      background: #0f172a;
-      color: #e2e8f0;
-      padding: 16px;
-      border-radius: 8px;
-    }
-    footer {
-      padding: 28px 0 48px;
-      color: var(--muted);
-    }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.94em; }
+    pre { overflow-x: auto; background: #0f172a; color: #e2e8f0; padding: 16px; border-radius: 8px; }
+    footer { padding: 28px 0 48px; color: var(--muted); }
   </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "SoftwareSourceCode",
-    "name": "Real Engineer for Codex",
-    "description": "One Codex skill for debugging, TDD, requirements grilling, prototyping, and architecture review.",
+    "name": "Coolest Codex Apps",
+    "description": "Ten Codex SKILL.md apps for disciplined software engineering workflows.",
     "codeRepository": "https://github.com/ArcQian-bit/codex-real-engineer-skills",
     "programmingLanguage": ["Markdown", "YAML", "Shell", "Python"],
     "license": "https://github.com/ArcQian-bit/codex-real-engineer-skills/blob/main/LICENSE",
-    "isBasedOn": "https://github.com/mattpocock/skills",
-    "keywords": "Codex skill, OpenAI Codex, SKILL.md, AI coding agent, TDD, debugging, architecture review"
+    "keywords": "Codex skills, OpenAI Codex, SKILL.md, AI coding agent, PR review, security review, performance, migration"
   }
   </script>
 </head>
@@ -143,37 +58,41 @@
       <a href="codex-skills-comparison.html">Comparison</a>
       <a href="llms.txt">llms.txt</a>
     </nav>
-    <h1>Real Engineer for Codex</h1>
-    <p class="lede">A Codex skill for software work that needs evidence, feedback loops, and engineering judgment: diagnose, TDD, grill, prototype, and architecture review.</p>
+    <h1>Coolest Codex Apps</h1>
+    <p class="lede">Ten small Codex skills for serious software work: repo mapping, issue triage, PR review, security, performance, releases, docs, UI polish, migrations, and real engineering workflows.</p>
     <div class="actions">
       <a class="primary" href="https://github.com/ArcQian-bit/codex-real-engineer-skills">Star on GitHub</a>
-      <a class="secondary" href="install-codex-real-engineer-skill.html">Install the Codex Skill</a>
+      <a class="secondary" href="install-codex-real-engineer-skill.html">Install the 10 apps</a>
     </div>
   </header>
   <main>
     <section>
-      <h2>One SKILL.md, Five Modes</h2>
+      <h2>The 10 Apps</h2>
       <div class="grid">
-        <article class="card"><h3>Diagnose</h3><p>For broken, flaky, slow, or failing behavior. Codex reproduces before guessing.</p></article>
-        <article class="card"><h3>TDD</h3><p>For explicit test-first work. Codex moves in red, green, refactor slices.</p></article>
-        <article class="card"><h3>Grill</h3><p>For fuzzy feature requests. Codex clarifies constraints before implementation.</p></article>
-        <article class="card"><h3>Prototype</h3><p>For uncertain UI, workflows, and state models. Codex creates disposable proof points.</p></article>
-        <article class="card"><h3>Architecture</h3><p>For refactors and maintainability. Codex studies coupling, boundaries, and interfaces.</p></article>
+        <article class="card"><h3>real-engineer</h3><p>General disciplined engineering router.</p></article>
+        <article class="card"><h3>repo-cartographer</h3><p>Map unfamiliar repos before changing them.</p></article>
+        <article class="card"><h3>issue-sherpa</h3><p>Turn fuzzy issues into scoped work.</p></article>
+        <article class="card"><h3>pr-reviewer</h3><p>Review diffs for bugs and regressions.</p></article>
+        <article class="card"><h3>security-scout</h3><p>Check auth, data, injection, deps, and config risks.</p></article>
+        <article class="card"><h3>perf-lab</h3><p>Optimize with measurements, not vibes.</p></article>
+        <article class="card"><h3>release-captain</h3><p>Prepare releases, notes, tags, and rollback checks.</p></article>
+        <article class="card"><h3>docs-keeper</h3><p>Keep docs aligned with shipped behavior.</p></article>
+        <article class="card"><h3>frontend-polisher</h3><p>Polish UI across viewports and states.</p></article>
+        <article class="card"><h3>migration-pilot</h3><p>Move APIs, deps, schemas, names, and files safely.</p></article>
       </div>
     </section>
     <section>
       <h2>Quick Install</h2>
       <pre><code>curl -fsSL https://raw.githubusercontent.com/ArcQian-bit/codex-real-engineer-skills/main/install.sh | bash</code></pre>
-      <p>Restart Codex after installing so the new skill is discovered.</p>
+      <p>Restart Codex after installing so the new skills are discovered.</p>
     </section>
     <section>
       <h2>Why It Exists</h2>
-      <p>Many AI coding workflows fail because the assistant jumps straight to a plausible implementation. Real Engineer for Codex nudges Codex toward reproducible evidence, narrow changes, and explicit tradeoffs.</p>
-      <p><a class="button" href="examples.html">See prompt examples</a></p>
+      <p>Many public agent collections are large, overlapping, or tied to one tool's hooks and slash commands. This pack keeps the useful workflow ideas, narrows the triggers, and writes them as Codex-native skills.</p>
     </section>
   </main>
   <footer>
-    MIT licensed. Adapted from ideas in Matt Pocock's open-source skills repository.
+    MIT licensed. Inspired by public engineering-agent patterns and adapted for Codex.
   </footer>
 </body>
 </html>
