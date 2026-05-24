@@ -1,0 +1,7 @@
+interface:
+  display_name: "Real Engineer Diagnose"
+  short_description: "Reproduce bugs before fixing them"
+  brand_color: "#2563EB"
+  default_prompt: "Use $real-engineer-diagnose to debug this failure with a reproducible feedback loop."
+policy:
+  allow_implicit_invocation: true
