@@ -82,6 +82,25 @@ def test_installer_defaults_to_collection() -> None:
     assert_true("Restart Codex" in text, "installer missing restart instruction")
 
 
+def test_public_docs_use_collection_install_url() -> None:
+    new_url = "install-coolest-codex-apps.html"
+    old_url = "install-codex-real-engineer-skill.html"
+    public_docs = [
+        ROOT / "README.md",
+        ROOT / "docs" / "index.html",
+        ROOT / "docs" / "codex-skills-comparison.html",
+        ROOT / "docs" / "llms.txt",
+        ROOT / "docs" / "sitemap.xml",
+    ]
+    for path in public_docs:
+        text = path.read_text()
+        assert_true(new_url in text, f"{path} does not link to the Coolest Codex Apps install page")
+        assert_true(old_url not in text, f"{path} still links to the legacy Real Engineer install page")
+    redirect = (ROOT / "docs" / old_url).read_text()
+    assert_true("noindex" in redirect, "legacy install page should not be indexed")
+    assert_true(new_url in redirect, "legacy install page should redirect to the collection install page")
+
+
 def main() -> None:
     tests = [
         test_collection_has_ten_apps,
@@ -90,6 +109,7 @@ def main() -> None:
         test_trigger_boundaries_are_distinct,
         test_real_engineer_is_fallback_not_duplicate,
         test_installer_defaults_to_collection,
+        test_public_docs_use_collection_install_url,
     ]
     for test in tests:
         test()

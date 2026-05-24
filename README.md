@@ -16,7 +16,7 @@ slash commands, or hooks.
 ## Links
 
 - Website: https://arcqian-bit.github.io/codex-real-engineer-skills/
-- Install guide: https://arcqian-bit.github.io/codex-real-engineer-skills/install-codex-real-engineer-skill.html
+- Install guide: https://arcqian-bit.github.io/codex-real-engineer-skills/install-coolest-codex-apps.html
 - Examples: https://arcqian-bit.github.io/codex-real-engineer-skills/examples.html
 - Comparison: https://arcqian-bit.github.io/codex-real-engineer-skills/codex-skills-comparison.html
 - Promotion kit: [PROMOTION.md](PROMOTION.md)

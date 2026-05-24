@@ -1,7 +1,7 @@
 # Coolest Codex Apps
 
 Repository: https://github.com/ArcQian-bit/codex-real-engineer-skills
-Install: https://arcqian-bit.github.io/codex-real-engineer-skills/install-codex-real-engineer-skill.html
+Install: https://arcqian-bit.github.io/codex-real-engineer-skills/install-coolest-codex-apps.html
 
 Coolest Codex Apps is a collection of 10 Codex skills for software engineering:
 repo mapping, issue triage, PR review, security review, performance work,
