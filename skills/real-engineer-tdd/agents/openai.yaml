@@ -1,0 +1,7 @@
+interface:
+  display_name: "Real Engineer TDD"
+  short_description: "Red/green/refactor vertical slices"
+  brand_color: "#059669"
+  default_prompt: "Use $real-engineer-tdd to implement this change test-first."
+policy:
+  allow_implicit_invocation: true
