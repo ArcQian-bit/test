@@ -97,7 +97,29 @@ Matt Pocock's MIT-licensed `mattpocock/skills` repository:
 
 https://github.com/mattpocock/skills
 
-The expanded collection is also informed by public Claude Code and agent-skill
-ecosystem patterns such as code review agents, security agents, repo mapping,
-release workflows, and UI polishing skills. The contents here are written for
-Codex and do not copy Claude-specific prompts or tool assumptions.
+The other apps are Codex-native rewrites. They borrow public workflow categories
+from the Claude Code and agent-skill ecosystem, but they do not copy
+Claude-specific prompts, hooks, slash commands, or subagent tool assumptions.
+
+| App | Provenance |
+| --- | --- |
+| `repo-cartographer` | Original Codex skill, informed by Claude Code patterns for codebase research, architecture review, and specialist subagents. |
+| `issue-sherpa` | Original Codex skill, informed by Claude Code issue-triage and task-to-implementation workflows such as `anthropics/claude-code-action`. |
+| `pr-reviewer` | Original Codex skill, informed by Claude Code Review, community `code-reviewer` agents, and maintainer-style review practices. |
+| `security-scout` | Original Codex skill, informed by community `security-auditor` agents and security skill collections such as Trail of Bits' skills. |
+| `perf-lab` | Original Codex skill, informed by community `performance-engineer` agents and profiling/benchmarking workflows. |
+| `release-captain` | Original Codex skill, informed by deployment/release agents and changelog automation skills in the Claude agent ecosystem. |
+| `docs-keeper` | Original Codex skill, informed by community `documentation-engineer`, `api-documenter`, README, tutorial, and reference-builder agents. |
+| `frontend-polisher` | Original Codex skill, informed by frontend, accessibility, UI/UX testing, and web-design agent skills. |
+| `migration-pilot` | Original Codex skill, informed by legacy modernization, refactoring, dependency-management, and migration-strategy agents. |
+
+Useful upstream references:
+
+- Anthropic Claude Code subagents and skills documentation: https://code.claude.com/docs/en/sub-agents
+- Anthropic Claude Code Review documentation: https://code.claude.com/docs/en/code-review
+- Anthropic blog on subagents, CLAUDE.md, and skills: https://claude.com/blog/subagents-in-claude-code
+- `wshobson/agents`: https://github.com/wshobson/agents
+- `VoltAgent/awesome-claude-code-subagents`: https://github.com/VoltAgent/awesome-claude-code-subagents
+- `rohitg00/awesome-claude-code-toolkit`: https://github.com/rohitg00/awesome-claude-code-toolkit
+- `subinium/awesome-claude-code`: https://github.com/subinium/awesome-claude-code
+- Trail of Bits security skills: https://github.com/trailofbits/skills
